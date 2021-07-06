@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<style>
+		.basic {
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+			border: 5px;
+			border-style: solid;
+			border-color: gray;
+			border-radius: 15px;
+			}
+		body {
+			width: 95%;
+			}
+		div#wapper {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			margin-left: auto;
+			margin-right: auto;
+			}
+		header, footer, nav, aside, section {
+			margin: 10px;
+			padding: 10px;
+			}
+		header {
+			height: 20%;
+			background-color: #B5CDA3;
+			}
+		nav, section, aside {
+			float: left;
+			height: 60%;
+			background-color: #F3F0D7;
+			}
+		nav {
+
+			width: 15%;
+		}
+		section {
+
+			width: 56%;
+			}
+		aside {
+
+			width: 15%;
+			}
+		footer {
+			height: 20%;
+			background-color: #CDF0EA;
+			position:relative;
+			clear: both;
+			}
+		article {
+			width: 90%;
+			height: 100px;
+			margin: 20px;
+			background-color: #F9F9F9;
+			}
+	</style>
+</head>
+<body>
+	<div id="wapper">
+		<header class="basic">
+			<p>&lt;header&gt;</p>
+		</header>
+		
+		<nav class="basic">
+			<p>&lt;nav&gt;</p>
+		</nav>
+		
+		<section class="basic">
+			<p>&lt;section&gt;</p>
+			<article class="basic">
+				<p>&lt;header&gt;</p>
+			</article>
+			<article class="basic">
+				<p>&lt;article&gt;</p>
+			</article>
+			<article class="basic">
+				<p>&lt;footer&gt;</p>
+			</article>
+		</section>
+		<aside class="basic">
+			<p>&lt;aside&gt;</p>
+		</aside>
+		<footer class="basic">
+			<p>&lt;footer&gt;</p>
+		</footer>
+	</div>
+</body>
+</html>

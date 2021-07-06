@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가시성</title>
+	<style>
+		.v1 {
+			visibility: hidden;
+			border: 1px;
+			border-style: dotted;
+			border-color: red;
+			}
+		.v2 {
+			visibility: visible;
+			border: 1px;
+			border-style: dotted;
+			border-color: red;
+			}
+		.v3 {
+			display: none;
+			border: 1px;
+			border-style: dotted;
+			border-color: red;
+			}	
+	</style>
+</head>
+<body>
+	<div class="v1">
+		<img src="img.png">
+	</div>
+	<div class="v2">
+		<img src="img.png">
+	</div>
+	<div class="v3">
+		<img src="img.png">
+	</div>
+	<div class="v2">
+		<img src="img.png">
+	</div>
+</body>
+</html>

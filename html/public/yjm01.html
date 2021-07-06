@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+	<style>
+		table {
+			border: 1px;
+			border-style: solid;
+			border-color: #E1E8EB;
+			border-collapse: collapse;
+			}
+		th {
+			background-color: #DDDDDD;
+			width: 150px;
+			}
+		td {
+			width: 800px;
+			border: 1px;
+			border-style: solid;
+			border-color: #E1E8EB;
+			}
+		tr {
+			height: 35px;
+			border: 1px;
+			border-style: solid;
+			border-color: #E1E8EB;
+			}
+		font.redstar { color: red; }
+		font.bluestar { color: blue; }
+
+	</style>
+</head>
+<body>
+
+<table>
+	<tr>
+		<th>
+			이 름<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<input type="text" size="10" name="name">
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			아이디<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<input type="text" size="10" name="id">
+		<font style="font-weight: bold">ID는 영문자와 숫자만 사용할 수 있습니다.</font> </td>
+	</tr>
+	
+		<tr>
+		<th>
+			비밀번호<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<input type="text" size="10" name="pwd">
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			비밀번호확인<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<input type="text" size="10" name="pwdcheck">
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			생년월일<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<select name="year" style="width: 60px">
+				<option value="">년도</option>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+			</select>
+			<select name="month" style="width: 60px">
+				<option value="">월</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select name="day" style="width: 60px">
+				<option value="">일</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<font style="color: #E8F0F2">* 신분증에 기재된 성명, 생년월일, 성명을 입력해 주세요.</font> 
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			성별<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<label><input type="radio" name="gender">남</label>
+				  <label><input type="radio" name="gender">여</label>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			이메일<font class="redstar">*</font>
+		</th>
+		<td>
+			&nbsp;<input type="text" size="40" name="email">
+			<font style="color: #E8F0F2">* 본인확인 및 아이디/비번찾기에 사용됩니다.</font> 
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			전화번호<font class="bluestar">*</font>
+		</th>
+		<td>
+			&nbsp;<select name="phone1" style="width: 60px">
+				<option value="">선택</option>
+				<option value="2021">02</option>
+				<option value="2020">053</option>
+				<option value="2019">0</option>
+			</select>
+			-
+			<input type="text" size="3" name="phone2">
+			-
+			<input type="text" size="3" name="phone3">
+			<font style="color: blue">* 전화 또는 휴대폰번호 중 택1은 필수사항입니다.</font> 
+		</td>
+	</tr>
+	
+	<tr>
+		<th>
+			휴대폰번호<font class="bluestar">*</font>
+		</th>
+		<td>
+			&nbsp;<select name="cellphone1" style="width: 60px">
+				<option value="">선택</option>
+				<option value="2021">010</option>
+				<option value="2020">011</option>
+				<option value="2019">016</option>
+			</select>
+			-
+			<input type="text" size="3" name="cellphone2">
+			-
+			<input type="text" size="3" name="cellphone3">
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
